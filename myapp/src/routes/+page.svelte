@@ -1,9 +1,8 @@
 <script>
   import "../app.css";
   import Header from "$lib/components/dashboard/Header.svelte";
+  import SideBar from "$lib/components/dashboard/SideBar.svelte";
 </script>
 
 <Header />
-
-<h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<SideBar />

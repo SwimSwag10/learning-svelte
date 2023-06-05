@@ -1,5 +1,4 @@
 <script>
-  // import { logo } from "$lib/assets/user.svg"
   import { clickOutside } from '$lib/utils/clickOutside.js'
   import user from '$lib/assets/user.svg'
   import logo from '$lib/assets/accelerate-logo.png'
@@ -8,8 +7,7 @@
   let showSettings = false;
 </script>
 
-<div class="fixed w-screen flex gap-6 items-center h-20 top-0 z-[1] px-10 bg-white border-neutral-400 border-b text-neutral-700">
-  <!-- <img src="" alt class="m-2 w-[16.875rem]" draggable="false"> -->
+<div class="fixed w-[100%] flex gap-6 items-center h-20 z-[1] px-10 bg-white border-neutral-400 border-b text-neutral-700">
   <img src="{logo}" alt="logo">
   <div class="flex justify-between items-center basis-full">
     <div class="flex gap-10 ">
